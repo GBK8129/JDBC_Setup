@@ -11,7 +11,7 @@ public class Prg {
 			System.out.println("Start");
 			//Class.forName("com.mysql.jdbc.Driver");
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Work","root","root");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Work","",""); // fill with username and password of SQL respectively
 			Statement st=con.createStatement();
 			
 			
